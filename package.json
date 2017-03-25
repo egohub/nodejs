@@ -1,0 +1,27 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "1st test for npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-node specs/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egohub/nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/egohub/nodejs/issues"
+  },
+  "homepage": "https://github.com/egohub/nodejs#readme",
+  "dependencies": {
+    "async": "^2.1.5",
+    "cheerio": "^0.22.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "jasmine-node": "~1.13.1"
+  }
+}
